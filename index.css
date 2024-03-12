@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+  /* border: 1px dashed red; */
+  background-color: #f1f2f4;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 67px;
+  background-color: white;
+}
+.logo_Container {
+  margin-left: 4%;
+}
+.logo_Container a {
+  background-color: white;
+}
+.flipkart_Home {
+  height: 40px;
+}
+.searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  min-width: 700px;
+  margin-left: 20px;
+  background-color: white;
+}
+
+.search_icon {
+  width: 24px;
+  background-color: #f0f5ff;
+  padding: 8px;
+  border-radius: 10px 0px 0px 10px;
+}
+.searchbar_input {
+  background-color: #f0f5ff;
+  flex-grow: 1;
+  outline: none;
+  border: none;
+  height: 40px;
+  font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+  font-size: 17px;
+  color: #aaabac;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.actionhbar {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-right: 4%;
+  background-color: white;
+}
+.action_Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 30px;
+  background-color: white;
+}
+.search_icons {
+  margin: 2px;
+  background-color: white;
+}
+.action_name {
+  background-color: white;
+}
