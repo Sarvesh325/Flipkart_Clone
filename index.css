@@ -283,3 +283,27 @@ header {
   color: #565656;
   line-height: 1.7;
 }
+
+/* Footer  */
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  position: absolute;
+  top: 3730px;
+  background-color: #212121;
+  width: 1500px;
+  font-weight: 501px;
+}
+.footer_Container {
+  background-color: #212121;
+  color: white;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+}
+h3 {
+  background-color: #212121;
+  color: #878787;
+  font-size: 12px;
+}
