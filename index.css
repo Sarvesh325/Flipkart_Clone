@@ -206,3 +206,38 @@ header {
 .bank_banner:hover {
   cursor: pointer;
 }
+
+/* Mobile Section */
+.mobileheading {
+  position: absolute;
+  top: 510px;
+  width: 1500px;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+.mobileheading h3 {
+  color: #353535;
+  font-weight: 501;
+  font-size: 20px;
+  background-color: white;
+}
+.mobile_container {
+  width: 1500px;
+  height: 345px;
+  display: flex;
+  background-color: transparent;
+  position: absolute;
+  top: 570px;
+  /* border: 2px solid black; */
+}
+.mobile_img {
+  height: 345px;
+}
+.mobile_img1 {
+  height: 345px;
+  position: absolute;
+  left: 1275px;
+}
