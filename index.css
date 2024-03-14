@@ -241,3 +241,45 @@ header {
   position: absolute;
   left: 1275px;
 }
+
+/* Offer2 Section  */
+.offer2_container {
+  width: 1500px;
+  height: 216px;
+  background-color: transparent;
+  /* border: 2px solid red; */
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 930px;
+}
+
+.offer_img {
+  /* position: absolute; */
+  width: 500px;
+  height: 216px;
+}
+
+/* Policy Section  */
+.policy_container {
+  width: 1500px;
+  height: 2350px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 1160px;
+}
+.policy_head1 {
+  color: #565656;
+  font-size: 16px;
+  font-weight: 501;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.policy1 {
+  /* margin: 10px; */
+  padding: 0 12px;
+  font-size: 13px;
+  color: #565656;
+  line-height: 1.7;
+}
