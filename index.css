@@ -288,12 +288,12 @@ header {
 footer {
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: 40px;
   position: absolute;
   top: 3730px;
   background-color: #212121;
   width: 1500px;
-  font-weight: 501px;
+  font-weight: 600px;
 }
 .footer_Container {
   background-color: #212121;
@@ -302,7 +302,7 @@ footer {
   line-height: 18px;
   font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
 }
-h3 {
+.footer_Container h4 {
   background-color: #212121;
   color: #878787;
   font-size: 12px;
