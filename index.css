@@ -307,3 +307,32 @@ footer {
   color: #878787;
   font-size: 12px;
 }
+
+.footer1 {
+  display: flex;
+  position: absolute;
+  justify-content: space-evenly;
+  background-color: #212121;
+  width: 1500px;
+  height: 70px;
+  top: 3994px;
+  border-top: 1px solid #454d5e;
+}
+.footer_item {
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+  padding: 5px;
+}
+.footer_icons {
+  color: white;
+  background-color: #212121;
+  margin-right: 5px;
+}
+.footerItem_name {
+  background-color: #212121;
+  color: white;
+  font-size: 12px;
+}
